@@ -25,7 +25,16 @@ public class Main
                 case 0:
                     order.printOrder();
                     break;
-                //put your case below this comment
+                case 4:
+                     System.out.println("1 - Vanilla");
+                     System.out.println("2 - Chocolate");
+                     System.out.println("3 - Strawberry");
+                     System.out.print("What flavor would you like? ");
+                     option = scanner.nextInt();
+                     order.shake(option);
+                     break;
+
+
             }
         }
     }
