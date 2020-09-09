@@ -9,4 +9,13 @@ class Order {
         System.out.println("Here are your items: " + items);
     }
 
+
+
+public void AddShake{
+totalCost = totalCost +4;
+
+System.out.println("Added Shake!Your total is $" + totalCost);
+ 
+}
+
 }

@@ -26,7 +26,10 @@ public class Main
                     order.printOrder();
                     break;
                 //put your case below this comment
-            }
+  
+ case 4:
+                    AddShake();
+                    break;          }
         }
     }
 }
