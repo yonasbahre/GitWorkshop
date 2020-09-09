@@ -11,7 +11,7 @@ class Order {
 
 
 
-public void AddShake{
+public void AddShake() {
 totalCost = totalCost +4;
 
 System.out.println("Added Shake!Your total is $" + totalCost);

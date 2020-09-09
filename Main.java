@@ -28,7 +28,7 @@ public class Main
                 //put your case below this comment
   
  case 4:
-                    AddShake();
+                    order.AddShake();
                     break;          }
         }
     }
