@@ -15,4 +15,11 @@ class Order {
         items.add("Drink");
         totalCost += price;
     }
+    
+    public void addFries() {
+        int price = 2;
+        System.out.println("Added fries for $ " + Integer.toString(price));
+        items.add("Fries");
+        totalCost += price;
+    }
 }

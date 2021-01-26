@@ -29,6 +29,9 @@ public class Main
                 case 1:
                     order.addDrink();
                     break;
+                case 2:
+                    order.addFries();
+                    break;
             }
         }
     }
