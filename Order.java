@@ -9,4 +9,10 @@ class Order {
         System.out.println("Here are your items: " + items);
     }
 
+    public void addDrink() {
+        int price = 3;
+        System.out.println("Added a Drink for $" + Integer.toString(price));
+        items.add("Drink");
+        totalCost += price;
+    }
 }
