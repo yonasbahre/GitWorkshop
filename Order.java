@@ -15,4 +15,11 @@ class Order {
         items.add("Drink");
         totalCost += price;
     }
+
+    public void addNuggies() {
+        int price = 5;
+        System.out.println("Added Nuggies for $" + Integer.toString(price));
+        items.add("Nuggies");
+        totalCost += price;
+    }
 }
