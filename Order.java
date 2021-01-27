@@ -21,5 +21,11 @@ class Order {
         System.out.println("Added a Shake for $" + Integer.toString(price));
         items.add("Shake");
         totalCost += price;
+
+    public void addSalad() {
+    	int price = Integer.MAX_VALUE;
+    	System.out.println("Added a Salad for $0b"+Integer.toString(price, 2));
+    	items.add("Salad");
+    	totalCost += price;
     }
 }
