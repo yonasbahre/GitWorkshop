@@ -32,6 +32,19 @@ public class Main
                 case 2:
                     order.addFries();
                     break;
+                case 5:
+                    order.addNuggies();
+                    break;
+                
+                case 3:
+                	order.addSalad();
+                	break;
+                
+                case 4:
+                    order.addShake();
+                    break;    
+
+
             }
         }
     }
