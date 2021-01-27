@@ -29,6 +29,9 @@ public class Main
                 case 1:
                     order.addDrink();
                     break;
+                case 5:
+                    order.addNuggies();
+                    break;
                 
                 case 3:
                 	order.addSalad();

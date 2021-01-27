@@ -16,6 +16,11 @@ class Order {
         totalCost += price;
     }
 
+    public void addNuggies() {
+        int price = 5;
+        System.out.println("Added Nuggies for $" + Integer.toString(price));
+        items.add("Nuggies");
+        totalCost += price;
     public void addShake() {
         int price = 5;
         System.out.println("Added a Shake for $" + Integer.toString(price));
