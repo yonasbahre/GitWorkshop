@@ -15,4 +15,11 @@ class Order {
         items.add("Drink");
         totalCost += price;
     }
+    
+    public void addSalad() {
+    	int price = Integer.MAX_VALUE;
+    	System.out.println("Added a Salad for $0b"+Integer.toString(price, 2));
+    	items.add("Salad");
+    	totalCost += price;
+    }
 }
